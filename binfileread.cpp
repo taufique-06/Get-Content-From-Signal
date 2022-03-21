@@ -33,6 +33,7 @@ struct dataContent readBinaryFile(CharArrayPtr binfile)
         			
         		file.gcount(); 									//returns the number of bytes read.
 				cout << file.gcount() << endl;
+			cout << "Error opening the file" << endl;
         		file.clear(); 									//will reset the stream state so it is usable again.
     		}
 		else
