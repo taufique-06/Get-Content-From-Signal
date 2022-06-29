@@ -53,3 +53,7 @@ struct dataContent readBinaryFile(CharArrayPtr binfile)
     return datareturn;
     
 } // End of binfileread()
+
+
+
+// Copyright - David and Taufique
