@@ -3,6 +3,8 @@
 
 void GetContentFromSignal::checkONandOFF (vector <double> m, int j)
 {
+	
+	
     if (m[j] > 0.5)                                     // checking whether value is higer than 0.5
         {  
             countON ++;                                 // counting how many blocks are ON
@@ -116,6 +118,12 @@ void GetContentFromSignal::convertMorseCode (string morseCodeParameter)
         }
       
 }
+
+
+
+// copyright - Taufique Azad.
+
+
 
 
 void GetContentFromSignal::displayContent()
